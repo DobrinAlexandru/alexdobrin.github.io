@@ -1,0 +1,24 @@
+body {
+ background-color: #ff0000 ;
+ text-align: center;
+}
+
+header {
+    /*padding-top: 49px;*/
+    height: 157px;
+    background: url("images/ic_launcher.png") center top no-repeat;
+}
+
+
+
+#buttons a:first-child {
+    margin-right: 8px;
+}
+
+@media screen and (min-width: 767px) {
+	header {
+	    margin-top: 20px;
+	    height: 557px;
+	    background-image: url("images/ic_launcher.png");
+	}
+}
